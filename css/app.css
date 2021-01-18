@@ -1,0 +1,66 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #8C8C8C;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+  }
+}
+
+a {
+  color: #8C8C8C;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.contenedor {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.logotipo {
+  margin-top: .5rem;
+  max-width: 100px;
+}
+
+@media (min-width: 768px) {
+  .logotipo {
+    margin-top: .8rem;
+    margin-left: 2%;
+  }
+}
+
+@media (min-width: 768px) {
+  .formulario-login {
+    background-color: rgba(0, 0, 0, 0.85);
+    max-width: 450px;
+    padding: 2rem 4rem;
+    margin: 1rem auto 4rem auto;
+  }
+}
+
+form legend {
+  color: #FFFFFF;
+  font-size: 2rem;
+  margin: 2rem 0;
+  font-weight: bold;
+}
